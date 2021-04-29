@@ -1,6 +1,9 @@
 require "Happy/version"
 
 module Happy
-  class Error < StandardError; end
-  # Your code goes here...
+	def self.hi
+	  	puts "说你好"
+	end
 end
+
+
